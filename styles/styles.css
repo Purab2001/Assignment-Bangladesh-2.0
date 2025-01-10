@@ -229,3 +229,50 @@ nav li{
 .description-2{
     margin-bottom: 32px;
 }
+/* donation styles */
+.donation-2{
+    text-align: center;
+}
+.donation-3{
+    text-align: center;
+    margin: 0 248px;
+}
+.donation-container{
+    display: flex;
+    gap: 24px;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 0 264px;
+
+}
+.donation-taka{
+    width: 252px;
+    height: 128px;
+    text-align: center;
+    background-color: white;
+    padding: 40px;
+    border-radius: 16px;
+}
+.taka2{
+    background-color: rgba(198, 228, 214, 1);
+}
+.input{
+    width: 932px;
+    height: 64px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    border: none;
+}
+.input-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+}
+.btn-donate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
