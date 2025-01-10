@@ -249,6 +249,7 @@ nav li{
     width: 252px;
     height: 128px;
     text-align: center;
+    justify-content: center;
     background-color: white;
     padding: 40px;
     border-radius: 16px;
