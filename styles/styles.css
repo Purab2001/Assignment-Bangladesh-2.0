@@ -11,7 +11,18 @@
     border-radius: 8px;
     border-color: #006A50;
 }
-
+/* Hover Styles */
+button{
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+button:hover{
+    transform: scale(1.1);
+}
+.donation-taka:hover {
+    background-color: rgba(198, 228, 214, 1);
+    transform: scale(1.1);
+}
 /* main Styles */
 main{
     margin: 0 auto;
@@ -253,9 +264,9 @@ nav li{
     padding: 40px;
     border-radius: 16px;
 }
-.taka2{
+/* .taka2{
     background-color: rgba(198, 228, 214, 1);
-}
+} */
 .input{
     width: 932px;
     height: 64px;
