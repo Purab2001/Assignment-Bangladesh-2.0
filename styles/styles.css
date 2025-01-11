@@ -20,7 +20,7 @@ button:hover{
     transform: scale(1.1);
 }
 .donation-taka:hover {
-    background-color: rgba(198, 228, 214, 0.578);
+    background-color: rgb(180, 217, 200);
     transform: scale(1.1);
 }
 /* main Styles */
@@ -250,15 +250,14 @@ nav li{
 }
 .donation-container{
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 24px;
-    font-weight: bold;
-    font-size: 40px;
     margin: 0 264px;
-
 }
 .donation-taka{
-    width: 252px;
-    height: 128px;
+    font-weight: bold;
+    font-size: 40px;
     text-align: center;
     background-color: white;
     padding: 40px;
