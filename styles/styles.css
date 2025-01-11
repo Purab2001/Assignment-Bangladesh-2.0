@@ -249,7 +249,6 @@ nav li{
     width: 252px;
     height: 128px;
     text-align: center;
-    justify-content: center;
     background-color: white;
     padding: 40px;
     border-radius: 16px;
@@ -276,4 +275,68 @@ nav li{
     justify-content: center;
     align-items: center;
     margin-bottom: 80px;
+}
+/* Newslater styles */
+.newslater{
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    padding: 80px;
+    margin: 0 160px;
+    margin-bottom: 80px;
+}
+.subscribe{
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    opacity: 70%;
+    margin: 0 160px;
+    margin-bottom: 32px;
+}
+.subscribe2{
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    opacity: 70%;
+    margin: 0 160px;
+}
+.input-email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+}
+.input-mail{
+    width: 600px;
+    height: 55px;
+    padding-left: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px 0 0 8px;
+}
+.btn-subscribe{
+    background-color: #006A50;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    padding: 18px 34px;
+    border-radius: 0 8px 8px 0;
+    border: none;
+}
+/* footer styles */
+.footer{
+    background-color: white;
+    padding: 50px;
+}
+.line{
+    color: #0E0E0E;
+    margin: 0 239px;
+    opacity: 20%;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+    margin-top: 32px;
 }
